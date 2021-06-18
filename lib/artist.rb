@@ -24,13 +24,6 @@ class Artist
     self.add_song(song)
     song
   end
-  
-  def add_post_by_title(title)
-    @@post_count += 1
-    post = Post.new(title)
-    self.add_post(post)
-    post
-  end
 
   def self.song_count
     @@song_count
